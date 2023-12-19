@@ -64,8 +64,8 @@
   </div>
 
 	<div class="footer-left">
-    <h3>Angad Bajwa - </h3>
-		<p>Advance Web Development &copy; 2023</p>
+    <h3>Angad Bajwa - Bachelor's In ICT</h3>
+		<p>&copy; 2023</p>
 	</div>
 </footer>
 
