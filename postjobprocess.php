@@ -5,7 +5,7 @@
     <meta name="description" content="Web application development" />
     <meta name="keywords" content="PHP" />
     <meta name="author" content="Angad Singh Bajwa" />
-    <title>Assignment 1</title>
+    <title>Jobsite</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
