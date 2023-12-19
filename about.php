@@ -5,7 +5,7 @@
     <meta name="description" content="Web application development" />
     <meta name="keywords" content="PHP" />
     <meta name="author" content="Angad Singh Bajwa" />
-    <title>Assignment 1</title>
+    <title>Jobsite</title>
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -40,15 +40,13 @@
 
 <section style="margin-left:100px">
     <p><strong>What is the PHP version installed in mercury?</strong></p>
-    <p>My PHP version is: <strong><?php echo phpversion() ?></strong>.</p>
-    <p>All the tasks listed in the Assignment page are attempted.</p></br>
+    <p>My PHP version is: <strong><?php echo phpversion() ?></strong>.</p></br>
     <p><strong>Special features:</strong></br> All the Advanced tasks are attempted, CSS has been implemented. Navigation bar and a footer has also been developed.
     </br>The website is fully responsive and a small JavaScript code is also included so as to minimize the navaigation bar</p>    	
 </section>
 </br>
 <section style="margin-left:100px">
-  <p><strong>Discussion screenshot: </strong>As such, I did not posted any questions in the discussion board as I got my doubts resolved </br>by going through 
-  questions asked by others, but I tried to participate by helping out other fellow students.</p>
+  <p><strong>Screenshot: </strong></p>
 </section>
 <center><img src="style/Discussion_screenshot.png" width="auto" height="250"/></center>
 <p style="text-align:center"><a href="index.php" class="button1">Return to homepage</a></p>
@@ -62,8 +60,8 @@
   </div>
 
 	<div class="footer-left">
-    <h3>Angad Bajwa - 103166497 - Swinburne University</h3>
-		<p>Advance Web Development &copy; 2023</p>
+    <h3>Angad Bajwa - Bachelor's In ICT</h3>
+		<p>&copy; 2023</p>
 	</div>
 </footer>
 
