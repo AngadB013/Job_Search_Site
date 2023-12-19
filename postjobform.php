@@ -5,7 +5,7 @@
     <meta name="description" content="Web application development" />
     <meta name="keywords" content="PHP" />
     <meta name="author" content="Angad Singh Bajwa" />
-    <title>Assignment 1</title>
+    <title>Jobsite</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -110,8 +110,8 @@
   </div>
 
 	<div class="footer-left">
-    <h3>Angad Bajwa - 103166497 - Swinburne University</h3>
-		<p>Advance Web Development &copy; 2023</p>
+    <h3>Angad Bajwa - Bachelor's of ICT</h3>
+		<p> &copy; 2023</p>
 	</div>
 </footer>
 
