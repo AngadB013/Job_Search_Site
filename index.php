@@ -40,7 +40,6 @@
 <h1 class = "heading1">Job Vacancy Posting System</h1>
   <div id = "info">
     <p>Name: Angad Singh Bajwa</p>
-    <p>Student ID: 103166497</p>
     <p>Email: <a href="mailto:'angsbajwa@gmail.com">angsbajwa@gmail.com</a></p>
     <p></br>
       “I declare that this is my individual work. I have not worked
