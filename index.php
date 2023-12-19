@@ -5,7 +5,7 @@
     <meta name="description" content="Web application development" />
     <meta name="keywords" content="PHP" />
     <meta name="author" content="Angad Singh Bajwa" />
-    <title>Assignment 1</title>
+    <title>Jobsite</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -41,10 +41,10 @@
   <div id = "info">
     <p>Name: Angad Singh Bajwa</p>
     <p>Student ID: 103166497</p>
-    <p>Email: <a href="mailto:103166497@student.swin.edu.au">103166497@student.swin.edu.au</a></p>
+    <p>Email: <a href="mailto:'angsbajwa@gmail.com">angsbajwa@gmail.com</a></p>
     <p></br>
-      “I declare that this assignment is my individual work. I have not worked
-      collaboratively, nor have I copied from any other student’s work or from any other source.”</a>
+      “I declare that this is my individual work. I have not worked
+      collaboratively, nor have I copied any others work or from any other source.”</a>
     </p>
   </div>
     </br>
@@ -64,7 +64,7 @@
   </div>
 
 	<div class="footer-left">
-    <h3>Angad Bajwa - 103166497 - Swinburne University</h3>
+    <h3>Angad Bajwa - </h3>
 		<p>Advance Web Development &copy; 2023</p>
 	</div>
 </footer>
