@@ -1,0 +1,251 @@
+/*Angad Singh Bajwa, 103166497*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+body {
+  background-color: #353836;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+/*Navigation bar styling*/
+header a {
+    text-decoration: none;
+  }
+  
+header {
+    padding: 0 20px;
+    background-color: #1d1f1d;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+#brand {
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  
+#brand a {
+    color: #09c372;
+  }
+
+ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+ul a {
+    color: white;
+  }
+  
+ul li {
+    padding: 5px;
+    margin-left: 10px;
+  }
+  
+ul li:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    background-color: #666;
+    color: white;
+}
+
+#hamburger-icon {
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+}
+  
+#hamburger-icon div {
+    width: 35px;
+    height: 3px;
+    background-color: #09c372;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+  
+.open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+  
+.open .bar2 {
+    opacity: 0;
+}
+  
+.open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
+}
+
+.mobile-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: calc(100vh - 50px);
+    width: 100%;
+    background-color:black;
+}
+  
+.open .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+  
+.mobile-menu li {
+    margin-bottom: 10px;
+}
+
+/*about page*/
+#about {
+  border-color: #09c372;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+
+/*Navigation bar styling ends here*/
+
+.heading1{
+  text-align:center;
+}
+
+#buttons{
+  display: flex;
+  justify-content: center;
+}
+
+#info {
+  margin-left:20px;
+}
+
+/*Button styling*/
+a.button1{
+display:inline-block;
+padding:0.3em 1.2em;
+margin:0 0.3em 0.3em 0;
+border-radius:2em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#FFFFFF;
+background-color:#207aad;
+text-align:center;
+transition: all 0.2s;
+}
+
+a.button1:hover{
+background-color:#4095c6;
+}
+
+/*Footer Styling*/
+.footer-distributed {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+  margin-top:20px;
+}
+
+.footer-distributed .footer-left p {
+  color: #13a566;
+  font-size: 14px;
+  margin: 0;
+}
+/* Footer links */
+
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #13a566;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+}
+
+/*Postjobform page styling*/
+body, h1, form {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the form with the class "styled-form" */
+.styled-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; /* Stack form elements vertically */
+  width: 50%;
+  margin-left:25%;
+}
+
+input[type="text"], select, textarea {
+  width: 35%;
+  padding: 5px;
+  margin-top:5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.button2{
+  display:inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius:2em;
+  transition: all 0.2s;
+  cursor:pointer;
+  background-color:#207aad;
+  color:#FFFFFF;
+}
+
+/*styling to make the site responsive*/
+@media only screen and (max-width: 600px) {
+  header nav {
+    display: none;
+  }
+
+  #hamburger-icon {
+    display: block;
+  }
+
+  a.button1{
+  display:block;
+  margin:0.2em auto;
+  }
+  /*footer*/
+  .footer-distributed .footer-left, .footer-distributed .footer-right {
+    text-align: center;
+  }
+  .footer-distributed .footer-right {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .footer-distributed .footer-left p.footer-links {
+    line-height: 1.8;
+  }
+}
