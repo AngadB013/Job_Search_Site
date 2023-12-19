@@ -41,7 +41,7 @@
 <section style="margin-left:100px">
     <p><strong>What is the PHP version installed in mercury?</strong></p>
     <p>My PHP version is: <strong><?php echo phpversion() ?></strong>.</p></br>
-    <p><strong>Special features:</strong></br> All the Advanced tasks are attempted, CSS has been implemented. Navigation bar and a footer has also been developed.
+    <p><strong>Special features:</strong></br> CSS has been implemented. Navigation bar and a footer has also been developed.
     </br>The website is fully responsive and a small JavaScript code is also included so as to minimize the navaigation bar</p>    	
 </section>
 </br>
