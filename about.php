@@ -48,7 +48,6 @@
 <section style="margin-left:100px">
   <p><strong>Screenshot: </strong></p>
 </section>
-<center><img src="style/Discussion_screenshot.png" width="auto" height="250"/></center>
 <p style="text-align:center"><a href="index.php" class="button1">Return to homepage</a></p>
 
 <footer class="footer-distributed">
